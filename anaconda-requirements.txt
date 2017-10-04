@@ -1,0 +1,4 @@
+python ~=2.7.13
+jupyterthemes ~=0.18.0
+lesscpy ~=0.12.0
+seaborn ~=0.8

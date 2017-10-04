@@ -1,21 +1,15 @@
 # Airbnb Machine Learning Workshop Repository #
 
-This repository contains the files and source code for the Ruby Unconference Airbnb Workshop, follow the steps for the configuration of
+This repository contains the files and source code for the Ruby Unconference 2017 Airbnb Workshop, follow the steps for the configuration of
 the python environment and use the interactive jupyter notebooks to review the workshop.
 
-### Introduction ###
-
-* Quick summary
-* Set up
-* Contributors
-
-### Set Up ###
+### Setup ###
 
 * Summary: To execute the Jupyter notebooks we need to install a python distribution with all the necessary packages (e.g. IPython, Numpy, Scikit-Learn). There is a distribution that already has this packages, so we need to install it. For intructions about the installation visit [Anaconda](https://docs.anaconda.com/anaconda/install/).
 
-## Setup
+## Setting your python environment
 
-# Using Anaconda
+# (option 1) Using Anaconda
 
 - Install anaconda according to the instructions.
 - [Optional] Run ```pip install -r anaconda-requirements.txt``` to install the packages requirements manually.
@@ -26,29 +20,29 @@ the python environment and use the interactive jupyter notebooks to review the w
 - If you wish to use the dark Jupyter notebook theme (possibly a bit better for your eyes) run the following command: ```jt -t chesterish -T```
 - If you wish to go use the dark Jupyter notebook theme (possibly a bit better for your eyes) run the following command: ```jt -r```
 
-# Using pyenv and virtualenv
+# (option 2) Using pyenv and virtualenv
 
 - [Install pyenv](https://github.com/pyenv/pyenv)
-- Install Python version 2.7.13 using pyenv
-- Install virtualenv ```pip3 install virtualenv```
+- Install Python version 2.7.13 using pyenv ```pyenv install 2.7.13```
+- Install virtualenv ```pip install virtualenv```
 - Create an virtualenv environment in the project folder ```virtualenv .```
 - Activate the virtualenv environment in the project folder ```source bin/activate```
 - Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment
 
 
-## Dependencies:
-- Python ~2.7
-- Numpy
-- SciPy
-- LightGBM
-- Matplotlib
-- Pandas
-- Scikit-Learn
-- Seaborn
+## Dependencies used
+
+- Python 2.7.13
+- jupyter ~=1.0.0
+- jupyterthemes ~=0.18.0
+- numpy ~=1.12.1
+- pandas ~=0.20.1
+- scikit-learn ~=0.18.1
+- seaborn ~=0.8
 
 ### Who do I talk to? ###
 
-* Mail to: miguel.diaz@codescrum.com or milton.arango@codescrum.com
+* Mail to: jairo.diaz |at| codescrum.com, miguel.diaz |at| codescrum.com or milton.arango |at| codescrum.com
 * By Codescrum
 
 # Contributors
