@@ -106,6 +106,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+*.crdownload
+
 #######################################################
 
 ### Pyenv-Virtualenv stuff for this project
@@ -121,4 +123,3 @@ share/
 *.csv
 notebooks/.ipynb_checkpoints
 .ipynb_checkpoints
-/data
