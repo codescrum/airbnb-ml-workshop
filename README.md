@@ -9,7 +9,17 @@ the python environment and use the interactive jupyter notebooks to review the w
 
 ## Setting your python environment
 
-# (option 1) Using Anaconda
+
+# (option 1) Using pyenv and virtualenv (lighter)
+
+- [Install pyenv](https://github.com/pyenv/pyenv)
+- Install Python version 2.7.13 using pyenv ```pyenv install 2.7.13```
+- Install virtualenv ```pip install virtualenv```
+- Create an virtualenv environment in the project folder ```virtualenv .```
+- Activate the virtualenv environment in the project folder ```source bin/activate```
+- Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment
+
+# (option 2) Using Anaconda - includes many packages (bulky)
 
 - Install anaconda according to the instructions.
 - [Optional] Run ```pip install -r anaconda-requirements.txt``` to install the packages requirements manually.
@@ -19,16 +29,6 @@ the python environment and use the interactive jupyter notebooks to review the w
 - If you are going to run the notebook from a different device in the same network, use the url generated after running the ```jupyter notebook list``` at the terminal. That should display an url (e.g http://IP_ADDRESS:PORT/?token=xxxxxxxxxxxxxxxxxxxxxxx). Now you can access the notebook from your browser selecting the available notebook that you need.
 - If you wish to use the dark Jupyter notebook theme (possibly a bit better for your eyes) run the following command: ```jt -t chesterish -T```
 - If you wish to go use the dark Jupyter notebook theme (possibly a bit better for your eyes) run the following command: ```jt -r```
-
-# (option 2) Using pyenv and virtualenv
-
-- [Install pyenv](https://github.com/pyenv/pyenv)
-- Install Python version 2.7.13 using pyenv ```pyenv install 2.7.13```
-- Install virtualenv ```pip install virtualenv```
-- Create an virtualenv environment in the project folder ```virtualenv .```
-- Activate the virtualenv environment in the project folder ```source bin/activate```
-- Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment
-
 
 ## Dependencies used
 
