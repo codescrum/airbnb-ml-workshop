@@ -9,6 +9,12 @@ the python environment and use the interactive jupyter notebooks to review the w
 
 ## Setting your python environment
 
+**Note:** If you already have configured yourself a python development
+environment and are comfortable with it, then you can directly proceed
+to running the installing the dependencies and running this notebook.
+
+These instructions were created to install an isolated environment
+so that it does not interfere with any work you may have.
 
 ### (option 1) Using pyenv and virtualenv (lighter)
 
@@ -56,14 +62,20 @@ easy to fork and contribute any changes back upstream.
     ```
 6. **Install virtualenv ```pip install virtualenv```**
 
-7. **Create an virtualenv environment in the project folder ```virtualenv .```**
+7. **Clone this repository ```git clone git@github.com:codescrum/airbnb-ml-workshop.git```**
 
-8. **Activate the virtualenv environment in the project folder ```source bin/activate```**
+8. **Go into the project directory ```cd airbnb-ml-workshop```**
 
-9. **Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment**
+9. **Create an virtualenv environment inside the project folder ```virtualenv .```**
+
+10. **Activate the virtualenv environment in the project folder ```source bin/activate```**
+
+11. **Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment**
 
 
-### (option 2) Using Anaconda - includes many packages (bulky)
+### (option 2) Using Anaconda
+
+**Note:** if you already have anaconda or another py, then use it!. Otherwise
 
 - Install anaconda according to the instructions.
 - [Optional] Run ```pip install -r anaconda-requirements.txt``` to install the packages requirements manually.
@@ -72,10 +84,10 @@ easy to fork and contribute any changes back upstream.
 
 - Download the dataset from insideairbnb ([link](http://data.insideairbnb.com/united-kingdom/england/london/2017-03-04/data/listings.csv.gz)) to the __data__ directory.
 - Extract the downloaded gunzip files in the data directory: ```gunzip *.zip```
-- Run the Jupyter notebook inside the notebooks directory: ```jupyter-notebook notebooks/ML_Workshop.ipynb --ip=YOUR_IP --port=AVAILABLE_PORT```
+- Run the Jupyter notebook inside the notebooks directory: ```jupyter-notebook notebooks/ML_Workshop.ipynb```
 - If you are going to run the notebook from a different device in the same network, use the url generated after running the ```jupyter notebook list``` at the terminal. That should display an url (e.g http://IP_ADDRESS:PORT/?token=xxxxxxxxxxxxxxxxxxxxxxx). Now you can access the notebook from your browser selecting the available notebook that you need.
-- If you wish to use the dark Jupyter notebook dark theme (possibly a bit better for your eyes) run the following command: ```jt -t chesterish -T```
-- If you wish to go use the dark Jupyter notebook theme (possibly a bit better for your eyes) run the following command: ```jt -r```
+- If you wish to use the dark Jupyter notebook dark theme (possibly a bit better for your eyes) run the following command: ```jt -t chesterish -T``` (the ```-T``` option is for "activate the toolbar, which is a useful thing to have")
+- If you wish to go back and use the default Jupyter notebook theme, then just run the following command: ```jt -r``` to remove the customizations.
 
 ## Dependencies used
 
