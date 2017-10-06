@@ -50,7 +50,7 @@ easy to fork and contribute any changes back upstream.
     $ exec "$SHELL"
     ```
 5. **Install Python versions into `$(pyenv root)/versions`.**
-   For example, to download and install Python 2.7.8, run:
+   For example, to download and install Python 2.7.13, run:
     ```sh
     $ pyenv install 2.7.13
     ```
