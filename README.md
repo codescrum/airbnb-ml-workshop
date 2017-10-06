@@ -10,7 +10,7 @@ the python environment and use the interactive jupyter notebooks to review the w
 ## Setting your python environment
 
 
-# (option 1) Using pyenv and virtualenv (lighter)
+### (option 1) Using pyenv and virtualenv (lighter)
 
 ### Installing pyenv from github
 
@@ -63,7 +63,7 @@ easy to fork and contribute any changes back upstream.
 9. **Upon activation, run ```pip install -r requirements.txt``` to install the dependencies in the virtual environment**
 
 
-# (option 2) Using Anaconda - includes many packages (bulky)
+### (option 2) Using Anaconda - includes many packages (bulky)
 
 - Install anaconda according to the instructions.
 - [Optional] Run ```pip install -r anaconda-requirements.txt``` to install the packages requirements manually.
